@@ -17,7 +17,7 @@ function registerUser() {
   window.location.href = 'login.html'; // Redirect ke halaman login
 }
 
-// Validate Login
+// Validasi Login
 function validateLogin() {
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
